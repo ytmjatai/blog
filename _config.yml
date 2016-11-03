@@ -3,4 +3,4 @@ keywords: "jatai"
 owner: "jatai"
 host: 127.0.0.1
 port: 4000
-destination: ./site
+destination: ./_site
