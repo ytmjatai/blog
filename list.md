@@ -1,10 +1,10 @@
 ---
-layout: index
-title: Jatai的博客
-active: index
+layout: list
+title: 关于
+active: list
 ---
 
-<h2>{{ page.title }}</h2>
+最新文章
 <ul>
     {% for post in site.posts %}
     <li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
