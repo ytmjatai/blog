@@ -3,7 +3,7 @@
       {% for tag in site.tags reversed %}
         <a class="list-group-item" href="#{{ tag[0] }}">
             {{ tag[0] }}
-            <span class="tag tag-pill tag-default pull-xs-right">{{ tag[1].size }}</span>
+            <span class="badge">{{ tag[1].size }}</span>
         </a>
         {% endfor %}
 </div>
