@@ -1,10 +1,10 @@
 ---
 layout: list
-title: 关于
+title: 文章列表
 active: list
 ---
 
-最新文章
+文章列表
 <ul>
     {% for post in site.posts %}
     <li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
