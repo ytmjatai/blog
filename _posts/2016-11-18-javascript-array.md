@@ -115,6 +115,14 @@ reduceRight() 跟reduce()一样，只是调用的顺序相反，也相当于把�
 
 ### __扩展__###
 
+Math.max.apply(this,array)  取得数组最大值
+
+Math.max(1, 3, 9, 7, 6 )用于求一组数的最大值，而apply() 方法在指定 this 值和参数（参数以数组或类数组对象的形式存在）的情况下调用某个函数。结合两者，就可以取得数组最大值
+
+	var arr = [6, 2, 9, 4, 2, 5, 3, 8, 7];
+    var max = Math.max.apply(this, arr)
+    console.log(max) //9
+
 
 
 
