@@ -1,6 +1,6 @@
 --- 
 layout: article 
-title: angular2学习笔记-路由
+title: angular2学习笔记2-路由
 tags: angular
 keywords: angular2路由,ng-router
 description: angular2路由学习笔记

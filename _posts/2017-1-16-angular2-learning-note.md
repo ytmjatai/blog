@@ -1,6 +1,6 @@
 --- 
 layout: article 
-title: angular2学习笔记-开发环境
+title: angular2学习笔记1-开发环境
 tags: angular
 keywords: angular2,ng-bootstrap,在组件中用ngModal打开另一个组件
 description: angular2学习笔记，记录学习angular2遇到的小坑及注意事项
