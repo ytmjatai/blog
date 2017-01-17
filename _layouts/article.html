@@ -21,7 +21,7 @@
 
 <body>
     {% include top.html %}
-    <div class="container">
+    <div class="container" style="margin-bottom: 70px;">
         <div class="row">
             <div class="col-xs-12 col-md-9">{{ content }}</div>
             <div class="col-xs-12 col-md-3">
@@ -32,23 +32,22 @@
     </div>
     <div class="container">
         <div class="row">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="bb6f09d7b25049ee1c2f51d0a79de6d0" data-title="{{ page.title }}" data-url="{{ post.url }}"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"ytmjatai"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-<!-- 多说公共JS代码 end -->
-</div></div>
+            <!-- 多说评论框 start 
+            <div class="ds-thread" data-thread-key="bb6f09d7b25049ee1c2f51d0a79de6d0" data-title="{{ page.title }}" data-url="{{ post.url }}"></div>
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"ytmjatai"};
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';ds.async = true;
+                        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] 
+                        || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+            </script>
+            end -->
+         </div>
+    </div>
 
     {% include footer.html %}
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
