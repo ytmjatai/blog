@@ -9,13 +9,9 @@ description: angular2路由学习笔记
 
 ### 快速起步 ###
 
-0.0 好吧，我一般是根据项目需求来学习东西的，angular在前端的用武之地是让搭建单页应用
-变得更简单，而单页应用离不开路由导航，如果你只想写一个展示 "Hello World" 的单面应用，
-那学习angular还有什么意思？我们从项目出发，学习angulr2的路由
+0.0 学习angulr2的路由
 
  **[示例代码](https://github.com/ytmjatai/angular2Demo)**
-
-
 
 ### 添加组件并整理目录结构 ###
 为了测试并使用路由，我们在项目中添加app.component.html并修改app.component.ts，
