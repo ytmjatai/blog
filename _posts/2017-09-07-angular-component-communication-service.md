@@ -15,6 +15,7 @@ description: angular组件通过服务通讯
 ### service 服务组件 ###
 
 我们要使用服务通讯，必须先建立一个 service 服务。
+
 communicate.Service.ts
 
     import { Injectable, EventEmitter } from '@angular/core';
