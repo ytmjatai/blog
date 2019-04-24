@@ -42,7 +42,7 @@ router.get('/', function (req, res, next) {
             /*
              * library-manage-system 为 mongo 数据库
              * book 是数据库里边的集合（表）
-             * 必须先在本地数据库里创建好并添加一些文档作测试
+             * 必须先在本地数据库里创建好并添加一些文档作测试, 不然没有数据显示
              */
             const db = await client.db('library-manage-system')
                 .collection('book')
