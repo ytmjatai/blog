@@ -1,9 +1,9 @@
 <div class="list-group">
     <a href="#" class="list-group-item disabled">标签</a>
-      {% for tag in site.tags reversed %}
-        <a class="list-group-item" href="#{{ tag[0] }}">
-            {{ tag[0] }}
-            <span class="badge">{{ tag[1].size }}</span>
-        </a>
-        {% endfor %}
+    {% for tag in site.tags reversed %}
+    <a class="list-group-item" href="#{{ tag[0] }}">
+        {{ tag[0] }}
+        <span class="badge">{{ tag[1].size }}</span>
+    </a>
+    {% endfor %}
 </div>
