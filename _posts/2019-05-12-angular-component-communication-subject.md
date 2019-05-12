@@ -1,7 +1,7 @@
 --- 
 layout: article 
 title: 使用可观察对象 Subject 实现在 angular 中通讯
-tags: angular rxjs subject
+tags: angular rxjs
 keywords: angular rxjs subject
 description: 使用可观察对象 subject 实现在 angular 中传递参数
 ---
