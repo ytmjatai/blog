@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "jekyll serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ytmjatai/ytmjatai.github.io.git"
   },
-  "author": "",
+  "author": "Jatai",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ytmjatai/ytmjatai.github.io/issues"

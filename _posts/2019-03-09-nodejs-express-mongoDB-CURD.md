@@ -2,8 +2,10 @@
 layout: article 
 title: 使用 nodejs、express 和 mongoDB 实现 CURD
 tags: nodejs express mongoDB
+categories: other
 keywords: nodejs express mongoDB
 description: 使用 nodejs、express 和 mongoDB 实现简单后台系统的增删改查示例
+intro: 使用 nodejs、express 和 mongoDB 实现简单后台系统的增删改查示例
 ---
 
 # {{page.title}}

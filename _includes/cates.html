@@ -1,0 +1,12 @@
+<link href="/assets/css/cates.css" rel="stylesheet">
+
+<div class="list-group cates">
+  <a href="#" class="list-group-item disabled bg-dark text-white">文章分类</a>
+  {% for cate in site.categories reversed %}
+  <a class="cate list-group-item d-flex align-items-center {% if cate[0] == page.active %}text-primary{% endif %}" href="/{{ cate[0] }}.html">
+      {{ cate[0] }} 
+      <span class="ml-auto badge  badge-pill {% if cate[0] == page.active %}badge-primary{% else %}badge-secondary{% endif %}">{{ cate[1].size }}</span>
+  </a>
+  {% endfor %}
+
+</div>

@@ -2,8 +2,10 @@
 layout: article 
 title: 使用可观察对象 Subject 实现在 angular 中通讯
 tags: angular rxjs
+categories: angular
 keywords: angular rxjs subject
 description: 使用可观察对象 subject 实现在 angular 中传递参数
+intro: Subject 是一种特殊的可观察对象，它允许将值多播给多个观察者。这意味着使用 Subject,我们可以在　angular 中实现一个组件发出消息，其他的多个组件能同时响应
 ---
 
 # {{page.title}}

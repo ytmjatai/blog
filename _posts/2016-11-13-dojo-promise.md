@@ -2,8 +2,10 @@
 layout: article 
 title: dojo-promise-all实现多个promise完成后,再返回一个新的promise
 tags: Dojo
+categories: other
 keywords: dojo/Deferred,dojo/promise/all
 description: dojo-deferred,dojo-promise-all实现多个promise完成后,再返回一个新的promise
+intro: 前几天做项目的时候遇到这样的需求:请求高德地图API的"路径规划"服务时返回的数据字段中含有火星坐标数组, 这跟esri地图的坐标有偏差, 所以要请求后台接口转换. 问题来了,因为这个火星坐标的数组长度是不固定的...
 ---
 # {{page.title}}
 

@@ -2,12 +2,14 @@
 layout: article 
 title: javascript Array类型
 tags: javascript
+categories: other
 keywords: array,array数组
 description: 是时候温故知新javascript的array类型了(呃，我都是按自己平时使用array的方法及习惯来写的，比如新建一个数组，我不用new Array()这种形式，所以文章中难免会有很多写得不全的地方)。
+intro: 首先javascript中的Array类型可以保存任意类型数据，每个元素的结构不要求相同，并且可以动态地调整Array实例的长度
 ---
 # {{page.title}}
 
-首先javascript中的Array类型可以保存任意类型数据，每个元素的结构不要求相同，并且可以动态地调整Array实例的长度
+首先javascript中的Array类型可以保存任意类型数据，每个元素的结构不要求相同，并且可以动态地调整Array实例的长度, Math.max.apply(this,array)  取得数组最大值
 
 ### array转string方法 ###
 

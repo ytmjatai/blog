@@ -2,8 +2,10 @@
 layout: article 
 title: angular2学习笔记2-路由
 tags: angular
+categories: angular
 keywords: angular2路由,ng-router
 description: angular2路由学习笔记
+intro: 为了测试并使用路由，我们在项目中添加app.component.html并修改app.component.ts，再添加项目所需组件，最后的目录结构应该如下图所示...
 ---
 # {{page.title}}
 

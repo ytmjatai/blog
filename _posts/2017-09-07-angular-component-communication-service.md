@@ -2,8 +2,10 @@
 layout: article 
 title: angular 组件通讯 - 服务
 tags: angular
+categories: angular
 keywords: angular组件通讯,angular服务
 description: angular组件通过服务通讯
+intro: 我们将通过一个例子学习 angular 组件间通过服务来通讯。如下图，左边的组件是个表单，可以输入用户信息；右边的组件将通过服务来获取到左边组件的信息，并能处理这些信息
 ---
 # {{page.title}}
 

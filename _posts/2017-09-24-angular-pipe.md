@@ -2,8 +2,10 @@
 layout: article 
 title: angular 自定义管道
 tags: angular
+categories: angular
 keywords: angular管道 angular自定义管道
 description: angular自定义管理
+intro: angular 有内置的管道，如 DatePipe ,在实际开发中，我们还可以自定义管道以满足项目需求。自定义管道非常简单，我们定义一个管道，它将根据传入参数来决定如何展示传入的数据
 ---
 # {{page.title}}
 
