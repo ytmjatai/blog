@@ -18,7 +18,7 @@ intro: 本来入门 Django 后准备放弃的, 但是后来接触了 Django REST
 下面来记录一下 Django REST framework 的入门与用它实现项目的模块化
 
 ----
-##### 安装 Django REST framework 与配置 #####
+#### 安装 Django REST framework 与配置 ####
 
 这玩意没啥技术含量, 跟着 <a href="https://www.django-rest-framework.org/#installation" target="_blank" title='Django REST framework官网'>Django REST framework 官方网站</a> 教程走一遍应该不会有问题
 
@@ -34,7 +34,7 @@ intro: 本来入门 Django 后准备放弃的, 但是后来接触了 Django REST
 ]
 ```
 ----
-##### 项目模块化 #####
+#### 项目模块化 ####
 
 看着官网的例子, 什么 模块定义/路由设置 都搞到一个文件去了, 正式的项目不会那么搞.
 
@@ -76,7 +76,7 @@ class BookViewSet(viewsets.ModelViewSet):
 
 
 
-##### 结语 #####
+#### 结语 ####
 又是快乐的一天.
 
 ---

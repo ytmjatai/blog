@@ -11,12 +11,12 @@ intro: 上一篇文章写了学习用 webpack 搭建 react(tsx) 项目基本结�
 # {{page.title}}
 
 ----
-##### 引言 #####
+#### 引言 ####
 上一篇文章写了学习用 webpack 搭建 react(tsx) 项目基本结构的简单配置, 这一篇记录一下 angular 菜鸡在学习 react 中所遇到的坑及解决方法. 
 <a class="d-block" href="https://github.com/ytmjatai/react-demo" target="_blank">源代码</a>
 
 ----
-##### 坑0:  <span class="text-danger">Route 标签中间不能有空格</span> #####
+#### 坑0:  <span class="text-danger">Route 标签中间不能有空格</span> ####
 导致 Module1 能加载出来而 Module2 不能, 纠结了好久.
 
 <abc>webpack.config.dev.js</abc>
@@ -28,7 +28,7 @@ intro: 上一篇文章写了学习用 webpack 搭建 react(tsx) 项目基本结�
 ```
 
 ----
-##### 坑1:  <span class="text-danger"> 进入 Module1 后再刷新浏览器,404</span> #####
+#### 坑1:  <span class="text-danger"> 进入 Module1 后再刷新浏览器,404</span> ####
 
 其实从我们打开浏览器 http://localhost:3000(加载了所需资源, /index.html, /bundle.js 等) 到点击 module1 进入到  http://localhost:3000/module1 界面, 浏览器地址改变和网页视觉上的变化(刷新dom)都是由 js 来完成的, 并没有再次从服务器上加载资源.
 
@@ -50,7 +50,7 @@ devServer: {
 ```
 ----
 
-##### 经验0  <span class="text-danger"> 按需加载 js 要在 index.html 加 base 标签的 href="/" </span> #####
+#### 经验0  <span class="text-danger"> 按需加载 js 要在 index.html 加 base 标签的 href="/" </span> ####
 
 由于打包出来的 js 有点大, 做了代码分割后又做了按需加载模块, 然后进入 http://localhost:3000/home/module1 后一片空白,
 看代码提示找不到 http://localhost:3000/home/ 下的某个 js 文件.
@@ -73,7 +73,7 @@ devServer: {
 ``` 
 ----
 
-##### 其他 #####
+#### 其他 ####
 由于不会 redux, 状态提升又麻烦, 在非父子组件间通讯, 第一时间想到了 rxjs, 那就上呗.
 
 用 rxjs 写了个通用并能传任意值的类, 然而不会在 react 里写依赖注入. 妹的, 那就把这个类实例化后再导出给其他文件直接引入使用吧,
@@ -111,7 +111,7 @@ export default rxSvc;
 ``` 
 ---
 
-##### 结语 #####
+#### 结语 ####
 基本可以使用了, 然后用代码控制 react-router 导航的时候又有莫名其妙的坑, 等弄好了再写一篇学习笔记 . **[源代码](https://github.com/ytmjatai/react-demo)**
 
 ---
