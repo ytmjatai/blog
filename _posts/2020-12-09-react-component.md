@@ -5,7 +5,7 @@ tags: react react
 categories: react 
 keywords: react 
 description: react 学习
-intro: 
+intro: 结合项目手摸手实现一个 react 全局提示框组件
 ---
 
 # {{page.title}}
