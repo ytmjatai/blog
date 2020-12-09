@@ -56,7 +56,7 @@ devServer: {
 看代码提示找不到 http://localhost:3000/home/ 下的某个 js 文件.
 
 根据上边的经验又是加载资源错误, 应该让它去服务器根目录下加载资源, 给 index 加上 base 标签并设置 href="/" 就好
-<abc>inddex.html</abc>
+<abc>index.html</abc>
 ```js
 <!DOCTYPE html>
 <html lang="en">

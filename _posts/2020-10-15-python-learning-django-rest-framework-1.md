@@ -47,6 +47,9 @@ intro: 本来入门 Django 后准备放弃的, 但是后来接触了 Django REST
 
 Python 模块和包的知识就不展开介绍了, 记得在新建的 models/ 目录下新建 \_\_init\_\_.py 文件
 
+如果执行命令 python manage.py makemigrations 没有创建 book Model,
+试试执行 python manage.py makemigrations library_system 迁移.
+
 <abc>library_system/models/book.py</abc>
 
 ```python
