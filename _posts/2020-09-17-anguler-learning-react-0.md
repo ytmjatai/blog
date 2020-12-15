@@ -1,6 +1,6 @@
 --- 
 layout: article 
-title: Angular 菜鸡学 react 之配置项目
+title: React 配置项目
 tags: react react
 categories: react
 keywords: react 

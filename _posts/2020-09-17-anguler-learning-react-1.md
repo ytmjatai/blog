@@ -1,6 +1,6 @@
 --- 
 layout: article 
-title: Angular 菜鸡学 react 之踩坑与经验
+title: React 踩坑与经验
 tags: react react
 categories: react 
 keywords: react 
